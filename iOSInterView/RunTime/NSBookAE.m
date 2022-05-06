@@ -10,4 +10,27 @@
 
 @implementation NSBookAE
 
+
+- (void)NSBookAE_forward:(int)age
+{
+    NSLog(@"NSBookAE_forward %d",age);
+}
+
+- (void)read
+{
+    
+//     struct obj = {
+//       self,
+//       [NSBookAE class]
+//      };
+//     objc_msgSendSuper2(obj, sel_registerName("read"));
+    
+    // 调用super的时候先生成一个obj的结构体，再传给objc_msgSendSuper2
+    //  这里可以通过lldb调试出来obj 两个参数  一个是self 一个是 [NSBookAE class]
+    
+    [super read];
+    
+    
+    
+}
 @end

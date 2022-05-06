@@ -10,4 +10,7 @@
 
 @interface NSBookAA : NSObject
 
+@property (nonatomic, assign)int page;  ///<
+@property (nonatomic, assign)int size;
+
 @end

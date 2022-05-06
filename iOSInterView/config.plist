@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Config.plist
-   iOSInterView
-
-   Created by hushaohui on 2022/4/4.
-   Copyright (c) 2022 hushaohui. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>RunTime</key>
+	<string>RunTimeController</string>
+	<key>汇编</key>
+	<string>AssemblyController</string>
+	<key>分类</key>
+	<string>CategoryController</string>
+	<key>KVC</key>
+	<string>KVCController</string>
+	<key>OC对象</key>
+	<string>ObjectController</string>
+	<key>KVO</key>
+	<string>KVOController</string>
+	<key>Block</key>
+	<string>BlockController</string>
+</dict>
 </plist>

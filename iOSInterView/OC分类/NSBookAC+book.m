@@ -10,4 +10,9 @@
 
 @implementation NSBookAC (book)
 
+
++ (void)load
+{
+    NSLog(@"NSBookAC book 分类");
+}
 @end

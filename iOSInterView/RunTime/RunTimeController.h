@@ -10,4 +10,8 @@
 
 @interface RunTimeController : UIViewController
 
+
+- (void)resolve;
+
+- (void)test:(NSString *)str;
 @end

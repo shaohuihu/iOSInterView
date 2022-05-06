@@ -7,28 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BF4829F27FB103E00387537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF4829E27FB103E00387537 /* AppDelegate.m */; };
-		3BF482A227FB103E00387537 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF482A127FB103E00387537 /* ViewController.m */; };
-		3BF482A527FB103E00387537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF482A327FB103E00387537 /* Main.storyboard */; };
-		3BF482A727FB103F00387537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF482A627FB103F00387537 /* Assets.xcassets */; };
-		3BF482AA27FB103F00387537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF482A827FB103F00387537 /* LaunchScreen.storyboard */; };
-		3BF482AD27FB103F00387537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF482AC27FB103F00387537 /* main.m */; };
+		3B53E5C427FB26F400C9010C /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B53E5C327FB26F400C9010C /* Config.plist */; };
+		3B53E5CA27FB773E00C9010C /* NSBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E5C927FB773E00C9010C /* NSBook.m */; };
+		3B53E5D027FBF82900C9010C /* KVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E5CF27FBF82900C9010C /* KVOController.m */; };
+		3B53E5D32801310B00C9010C /* ObjectController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E5D22801310B00C9010C /* ObjectController.mm */; };
+		3B53E5D62801970500C9010C /* NSBookAA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E5D52801970500C9010C /* NSBookAA.m */; };
+		3B53E5DC2801A53D00C9010C /* KVCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E5DB2801A53D00C9010C /* KVCController.m */; };
+		3B53E5DF2801A56600C9010C /* NSBookAB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E5DE2801A56600C9010C /* NSBookAB.m */; };
+		3B53E5E328027C9F00C9010C /* CategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E5E228027C9F00C9010C /* CategoryController.m */; };
+		3B53E5EA281D02B900C9010C /* NSBookAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E5E9281D02B900C9010C /* NSBookAC.m */; };
+		3B53E5F0281D037200C9010C /* NSBookAC+book.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E5EF281D037200C9010C /* NSBookAC+book.m */; };
+		3B53E607281E3B5900C9010C /* BlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E606281E3B5900C9010C /* BlockController.m */; };
+		3B53E60A281E828100C9010C /* NSBookAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E609281E828100C9010C /* NSBookAD.m */; };
+		3B53E60E281EBB6300C9010C /* RunTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E60D281EBB6300C9010C /* RunTimeController.m */; };
+		3B53E61128201F1100C9010C /* NSBookAE.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E61028201F1100C9010C /* NSBookAE.m */; };
+		3B53E6152821F5A100C9010C /* AssemblyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E6142821F5A100C9010C /* AssemblyController.m */; };
+		3B53E6182821F60F00C9010C /* NSBookAF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E6172821F60F00C9010C /* NSBookAF.m */; };
+		3BF482CD27FB25B100387537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF482C227FB25B100387537 /* Assets.xcassets */; };
+		3BF482CE27FB25B100387537 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF482C327FB25B100387537 /* ViewController.m */; };
+		3BF482CF27FB25B100387537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF482C427FB25B100387537 /* LaunchScreen.storyboard */; };
+		3BF482D027FB25B100387537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF482C627FB25B100387537 /* Main.storyboard */; };
+		3BF482D127FB25B100387537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF482C827FB25B100387537 /* main.m */; };
+		3BF482D227FB25B100387537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF482C927FB25B100387537 /* AppDelegate.m */; };
+		3BF482D327FB25B100387537 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BF482CA27FB25B100387537 /* Info.plist */; };
 		A3F35A4A28FB794A3CF6B61B /* Pods_iOSInterView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F848D4BDE1929B5264DC3DC6 /* Pods_iOSInterView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05AD1BA88528E4C6E6DC11E2 /* Pods-iOSInterView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSInterView.release.xcconfig"; path = "Target Support Files/Pods-iOSInterView/Pods-iOSInterView.release.xcconfig"; sourceTree = "<group>"; };
 		06FF6AA55CFF92F6E71E4205 /* Pods-iOSInterView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSInterView.debug.xcconfig"; path = "Target Support Files/Pods-iOSInterView/Pods-iOSInterView.debug.xcconfig"; sourceTree = "<group>"; };
+		3B53E5C327FB26F400C9010C /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		3B53E5C527FB284700C9010C /* ObjectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectController.h; sourceTree = "<group>"; };
+		3B53E5C827FB773E00C9010C /* NSBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBook.h; sourceTree = "<group>"; };
+		3B53E5C927FB773E00C9010C /* NSBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBook.m; sourceTree = "<group>"; };
+		3B53E5CB27FB78F300C9010C /* NSBook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NSBook.cpp; sourceTree = "<group>"; };
+		3B53E5CE27FBF82900C9010C /* KVOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
+		3B53E5CF27FBF82900C9010C /* KVOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOController.m; sourceTree = "<group>"; };
+		3B53E5D128012FF900C9010C /* RunTimeClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeClass.h; sourceTree = "<group>"; };
+		3B53E5D22801310B00C9010C /* ObjectController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectController.mm; sourceTree = "<group>"; };
+		3B53E5D42801970500C9010C /* NSBookAA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBookAA.h; sourceTree = "<group>"; };
+		3B53E5D52801970500C9010C /* NSBookAA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBookAA.m; sourceTree = "<group>"; };
+		3B53E5D728019FE900C9010C /* NSKVONotifying_NSBookAA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSKVONotifying_NSBookAA.h; sourceTree = "<group>"; };
+		3B53E5D828019FE900C9010C /* NSKVONotifying_NSBookAA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifying_NSBookAA.m; sourceTree = "<group>"; };
+		3B53E5DA2801A53D00C9010C /* KVCController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCController.h; sourceTree = "<group>"; };
+		3B53E5DB2801A53D00C9010C /* KVCController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCController.m; sourceTree = "<group>"; };
+		3B53E5DD2801A56600C9010C /* NSBookAB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBookAB.h; sourceTree = "<group>"; };
+		3B53E5DE2801A56600C9010C /* NSBookAB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBookAB.m; sourceTree = "<group>"; };
+		3B53E5E128027C9F00C9010C /* CategoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryController.h; sourceTree = "<group>"; };
+		3B53E5E228027C9F00C9010C /* CategoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryController.m; sourceTree = "<group>"; };
+		3B53E5E8281D02B900C9010C /* NSBookAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBookAC.h; sourceTree = "<group>"; };
+		3B53E5E9281D02B900C9010C /* NSBookAC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBookAC.m; sourceTree = "<group>"; };
+		3B53E5EE281D037200C9010C /* NSBookAC+book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBookAC+book.h"; sourceTree = "<group>"; };
+		3B53E5EF281D037200C9010C /* NSBookAC+book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBookAC+book.m"; sourceTree = "<group>"; };
+		3B53E605281E3B5900C9010C /* BlockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockController.h; sourceTree = "<group>"; };
+		3B53E606281E3B5900C9010C /* BlockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockController.m; sourceTree = "<group>"; };
+		3B53E608281E828100C9010C /* NSBookAD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBookAD.h; sourceTree = "<group>"; };
+		3B53E609281E828100C9010C /* NSBookAD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBookAD.m; sourceTree = "<group>"; };
+		3B53E60C281EBB6300C9010C /* RunTimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeController.h; sourceTree = "<group>"; };
+		3B53E60D281EBB6300C9010C /* RunTimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeController.m; sourceTree = "<group>"; };
+		3B53E60F28201F1100C9010C /* NSBookAE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBookAE.h; sourceTree = "<group>"; };
+		3B53E61028201F1100C9010C /* NSBookAE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBookAE.m; sourceTree = "<group>"; };
+		3B53E6132821F5A100C9010C /* AssemblyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssemblyController.h; sourceTree = "<group>"; };
+		3B53E6142821F5A100C9010C /* AssemblyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssemblyController.m; sourceTree = "<group>"; };
+		3B53E6162821F60F00C9010C /* NSBookAF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBookAF.h; sourceTree = "<group>"; };
+		3B53E6172821F60F00C9010C /* NSBookAF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBookAF.m; sourceTree = "<group>"; };
 		3BF4829A27FB103E00387537 /* iOSInterView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSInterView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BF4829D27FB103E00387537 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3BF4829E27FB103E00387537 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3BF482A027FB103E00387537 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3BF482A127FB103E00387537 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3BF482A427FB103E00387537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3BF482A627FB103F00387537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3BF482A927FB103F00387537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3BF482AB27FB103F00387537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BF482AC27FB103F00387537 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BF482C127FB25B100387537 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BF482C227FB25B100387537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF482C327FB25B100387537 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BF482C527FB25B100387537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BF482C727FB25B100387537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BF482C827FB25B100387537 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BF482C927FB25B100387537 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BF482CA27FB25B100387537 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF482CB27FB25B100387537 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F848D4BDE1929B5264DC3DC6 /* Pods_iOSInterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSInterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,7 +102,6 @@
 				06FF6AA55CFF92F6E71E4205 /* Pods-iOSInterView.debug.xcconfig */,
 				05AD1BA88528E4C6E6DC11E2 /* Pods-iOSInterView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -60,6 +111,76 @@
 				F848D4BDE1929B5264DC3DC6 /* Pods_iOSInterView.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B53E5CC27FBED3500C9010C /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				3B53E5DA2801A53D00C9010C /* KVCController.h */,
+				3B53E5DB2801A53D00C9010C /* KVCController.m */,
+				3B53E5DD2801A56600C9010C /* NSBookAB.h */,
+				3B53E5DE2801A56600C9010C /* NSBookAB.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		3B53E5CD27FBED3500C9010C /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				3B53E5CE27FBF82900C9010C /* KVOController.h */,
+				3B53E5CF27FBF82900C9010C /* KVOController.m */,
+				3B53E5D42801970500C9010C /* NSBookAA.h */,
+				3B53E5D52801970500C9010C /* NSBookAA.m */,
+				3B53E5D728019FE900C9010C /* NSKVONotifying_NSBookAA.h */,
+				3B53E5D828019FE900C9010C /* NSKVONotifying_NSBookAA.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		3B53E5E028027C8000C9010C /* OC分类 */ = {
+			isa = PBXGroup;
+			children = (
+				3B53E5E128027C9F00C9010C /* CategoryController.h */,
+				3B53E5E228027C9F00C9010C /* CategoryController.m */,
+				3B53E5E8281D02B900C9010C /* NSBookAC.h */,
+				3B53E5E9281D02B900C9010C /* NSBookAC.m */,
+				3B53E5EE281D037200C9010C /* NSBookAC+book.h */,
+				3B53E5EF281D037200C9010C /* NSBookAC+book.m */,
+			);
+			path = "OC分类";
+			sourceTree = "<group>";
+		};
+		3B53E604281E3B2200C9010C /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				3B53E605281E3B5900C9010C /* BlockController.h */,
+				3B53E606281E3B5900C9010C /* BlockController.m */,
+				3B53E608281E828100C9010C /* NSBookAD.h */,
+				3B53E609281E828100C9010C /* NSBookAD.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		3B53E60B281EBB4900C9010C /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				3B53E60C281EBB6300C9010C /* RunTimeController.h */,
+				3B53E60D281EBB6300C9010C /* RunTimeController.m */,
+				3B53E60F28201F1100C9010C /* NSBookAE.h */,
+				3B53E61028201F1100C9010C /* NSBookAE.m */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
+		3B53E6122821F57F00C9010C /* 汇编 */ = {
+			isa = PBXGroup;
+			children = (
+				3B53E6132821F5A100C9010C /* AssemblyController.h */,
+				3B53E6142821F5A100C9010C /* AssemblyController.m */,
+				3B53E6162821F60F00C9010C /* NSBookAF.h */,
+				3B53E6172821F60F00C9010C /* NSBookAF.m */,
+			);
+			path = "汇编";
 			sourceTree = "<group>";
 		};
 		3BF4829127FB103E00387537 = {
@@ -83,17 +204,46 @@
 		3BF4829C27FB103E00387537 /* iOSInterView */ = {
 			isa = PBXGroup;
 			children = (
-				3BF4829D27FB103E00387537 /* AppDelegate.h */,
-				3BF4829E27FB103E00387537 /* AppDelegate.m */,
-				3BF482A027FB103E00387537 /* ViewController.h */,
-				3BF482A127FB103E00387537 /* ViewController.m */,
-				3BF482A327FB103E00387537 /* Main.storyboard */,
-				3BF482A627FB103F00387537 /* Assets.xcassets */,
-				3BF482A827FB103F00387537 /* LaunchScreen.storyboard */,
-				3BF482AB27FB103F00387537 /* Info.plist */,
-				3BF482AC27FB103F00387537 /* main.m */,
+				3B53E6122821F57F00C9010C /* 汇编 */,
+				3B53E60B281EBB4900C9010C /* RunTime */,
+				3B53E604281E3B2200C9010C /* Block */,
+				3B53E5E028027C8000C9010C /* OC分类 */,
+				3B53E5CC27FBED3500C9010C /* KVC */,
+				3B53E5CD27FBED3500C9010C /* KVO */,
+				3BF482CC27FB25B100387537 /* OC对象本质 */,
+				3BF482C027FB25B100387537 /* Others */,
+				3B53E5C327FB26F400C9010C /* Config.plist */,
 			);
 			path = iOSInterView;
+			sourceTree = "<group>";
+		};
+		3BF482C027FB25B100387537 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				3BF482C127FB25B100387537 /* AppDelegate.h */,
+				3BF482C227FB25B100387537 /* Assets.xcassets */,
+				3BF482C427FB25B100387537 /* LaunchScreen.storyboard */,
+				3BF482C627FB25B100387537 /* Main.storyboard */,
+				3BF482C827FB25B100387537 /* main.m */,
+				3BF482C927FB25B100387537 /* AppDelegate.m */,
+				3BF482CA27FB25B100387537 /* Info.plist */,
+				3BF482CB27FB25B100387537 /* ViewController.h */,
+				3BF482C327FB25B100387537 /* ViewController.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		3BF482CC27FB25B100387537 /* OC对象本质 */ = {
+			isa = PBXGroup;
+			children = (
+				3B53E5C527FB284700C9010C /* ObjectController.h */,
+				3B53E5D22801310B00C9010C /* ObjectController.mm */,
+				3B53E5C827FB773E00C9010C /* NSBook.h */,
+				3B53E5C927FB773E00C9010C /* NSBook.m */,
+				3B53E5CB27FB78F300C9010C /* NSBook.cpp */,
+				3B53E5D128012FF900C9010C /* RunTimeClass.h */,
+			);
+			path = "OC对象本质";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +305,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF482AA27FB103F00387537 /* LaunchScreen.storyboard in Resources */,
-				3BF482A727FB103F00387537 /* Assets.xcassets in Resources */,
-				3BF482A527FB103E00387537 /* Main.storyboard in Resources */,
+				3BF482D327FB25B100387537 /* Info.plist in Resources */,
+				3BF482D027FB25B100387537 /* Main.storyboard in Resources */,
+				3BF482CD27FB25B100387537 /* Assets.xcassets in Resources */,
+				3B53E5C427FB26F400C9010C /* Config.plist in Resources */,
+				3BF482CF27FB25B100387537 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,13 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSInterView/Pods-iOSInterView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSInterView/Pods-iOSInterView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSInterView/Pods-iOSInterView-frameworks.sh\"\n";
@@ -186,15 +332,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-iOSInterView-checkManifestLockResult.txt",
 			);
@@ -210,29 +352,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF482A227FB103E00387537 /* ViewController.m in Sources */,
-				3BF482AD27FB103F00387537 /* main.m in Sources */,
-				3BF4829F27FB103E00387537 /* AppDelegate.m in Sources */,
+				3B53E5F0281D037200C9010C /* NSBookAC+book.m in Sources */,
+				3B53E5D32801310B00C9010C /* ObjectController.mm in Sources */,
+				3B53E60A281E828100C9010C /* NSBookAD.m in Sources */,
+				3B53E5E328027C9F00C9010C /* CategoryController.m in Sources */,
+				3B53E5D62801970500C9010C /* NSBookAA.m in Sources */,
+				3B53E5DC2801A53D00C9010C /* KVCController.m in Sources */,
+				3BF482D127FB25B100387537 /* main.m in Sources */,
+				3B53E61128201F1100C9010C /* NSBookAE.m in Sources */,
+				3B53E5DF2801A56600C9010C /* NSBookAB.m in Sources */,
+				3B53E5D027FBF82900C9010C /* KVOController.m in Sources */,
+				3BF482CE27FB25B100387537 /* ViewController.m in Sources */,
+				3B53E5EA281D02B900C9010C /* NSBookAC.m in Sources */,
+				3B53E6182821F60F00C9010C /* NSBookAF.m in Sources */,
+				3B53E607281E3B5900C9010C /* BlockController.m in Sources */,
+				3B53E60E281EBB6300C9010C /* RunTimeController.m in Sources */,
+				3B53E6152821F5A100C9010C /* AssemblyController.m in Sources */,
+				3B53E5CA27FB773E00C9010C /* NSBook.m in Sources */,
+				3BF482D227FB25B100387537 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3BF482A327FB103E00387537 /* Main.storyboard */ = {
+		3BF482C427FB25B100387537 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3BF482A427FB103E00387537 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3BF482A827FB103F00387537 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BF482A927FB103F00387537 /* Base */,
+				3BF482C527FB25B100387537 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3BF482C627FB25B100387537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BF482C727FB25B100387537 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -355,7 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9965V76KP;
-				INFOPLIST_FILE = iOSInterView/Info.plist;
+				INFOPLIST_FILE = iOSInterView/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,7 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9965V76KP;
-				INFOPLIST_FILE = iOSInterView/Info.plist;
+				INFOPLIST_FILE = iOSInterView/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

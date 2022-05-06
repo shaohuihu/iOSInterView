@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSBookAA.h"
+@interface NSBookAB : NSBookAA
 
-@interface NSBookAB : NSObject
-
+@property (nonatomic,assign,readonly) int maxNumber;
 @end

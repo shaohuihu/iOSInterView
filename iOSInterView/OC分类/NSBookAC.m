@@ -10,4 +10,14 @@
 
 @implementation NSBookAC
 
+
++ (void)load
+{
+    NSLog(@"NSBookAC  load");
+}
+
+- (void)dealloc
+{
+    NSLog(@"%s",__func__);
+}
 @end

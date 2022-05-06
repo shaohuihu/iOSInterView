@@ -10,4 +10,7 @@
 
 @interface NSBookAE : NSBook
 
+
+- (void)resolve;
+
 @end

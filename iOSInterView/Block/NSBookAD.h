@@ -6,8 +6,15 @@
 //  Copyright © 2022 hushaohui. All rights reserved.
 //
 
-#import "NSBook.h"
+#import <AVFoundation/AVFoundation.h>
 
-@interface NSBookAD : NSBook
+
+typedef void(^Block)(int number);
+@interface NSBookAD : NSObject
+
+@property (nonatomic,assign)NSInteger page;
+
+@property (nonatomic,copy) Block block;
+
 
 @end

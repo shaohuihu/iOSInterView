@@ -10,4 +10,8 @@
 
 @interface NSBook : NSObject
 
+@property (nonatomic, assign)NSInteger page;  ///<
+
+- (void)read;
+
 @end

@@ -7,7 +7,14 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ObjectController.h"
+#import "KVOController.h"
+#import "KVCController.h"
+#import "CategoryController.h"
+#import "BlockController.h"
+#import "RunTimeController.h"
+//#import "ViewController.h"
+#import "AssemblyController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +23,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[AssemblyController alloc] init];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

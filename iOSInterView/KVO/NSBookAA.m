@@ -10,4 +10,10 @@
 
 @implementation NSBookAA
 
+
+- (void)setPage:(int)page
+{
+    _page = page;
+    NSLog(@"%@", self);
+}
 @end

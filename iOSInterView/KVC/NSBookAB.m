@@ -10,4 +10,18 @@
 
 @implementation NSBookAB
 
+//- (void)setMaxNumber:(int)maxNumber
+//{
+//    _maxNumber = maxNumber;
+//}
+
+//- (void)_setMaxNumber:(int)maxNumber
+//{
+//    _maxNumber = maxNumber;
+//}
+
+//+ (BOOL)accessInstanceVariablesDirectly
+//{
+//    return NO;
+//}
 @end

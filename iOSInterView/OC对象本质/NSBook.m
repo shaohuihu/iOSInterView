@@ -10,4 +10,13 @@
 
 @implementation NSBook
 
+
++ (void)load
+{
+    NSLog(@"NSBook load");
+}
+- (void)read
+{
+    NSLog(@"read this book");
+}
 @end
