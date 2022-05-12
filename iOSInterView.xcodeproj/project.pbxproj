@@ -23,6 +23,8 @@
 		3B53E61128201F1100C9010C /* NSBookAE.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E61028201F1100C9010C /* NSBookAE.m */; };
 		3B53E6152821F5A100C9010C /* AssemblyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E6142821F5A100C9010C /* AssemblyController.m */; };
 		3B53E6182821F60F00C9010C /* NSBookAF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E6172821F60F00C9010C /* NSBookAF.m */; };
+		3B53E61C2827B7EB00C9010C /* RunLoopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E61B2827B7EB00C9010C /* RunLoopController.m */; };
+		3B53E620282D386D00C9010C /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53E61F282D386D00C9010C /* GCDViewController.m */; };
 		3BF482CD27FB25B100387537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF482C227FB25B100387537 /* Assets.xcassets */; };
 		3BF482CE27FB25B100387537 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF482C327FB25B100387537 /* ViewController.m */; };
 		3BF482CF27FB25B100387537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF482C427FB25B100387537 /* LaunchScreen.storyboard */; };
@@ -71,6 +73,10 @@
 		3B53E6142821F5A100C9010C /* AssemblyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssemblyController.m; sourceTree = "<group>"; };
 		3B53E6162821F60F00C9010C /* NSBookAF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBookAF.h; sourceTree = "<group>"; };
 		3B53E6172821F60F00C9010C /* NSBookAF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBookAF.m; sourceTree = "<group>"; };
+		3B53E61A2827B7EB00C9010C /* RunLoopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopController.h; sourceTree = "<group>"; };
+		3B53E61B2827B7EB00C9010C /* RunLoopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopController.m; sourceTree = "<group>"; };
+		3B53E61E282D386D00C9010C /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		3B53E61F282D386D00C9010C /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 		3BF4829A27FB103E00387537 /* iOSInterView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSInterView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF482C127FB25B100387537 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BF482C227FB25B100387537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -183,6 +189,24 @@
 			path = "汇编";
 			sourceTree = "<group>";
 		};
+		3B53E6192827B7CB00C9010C /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				3B53E61A2827B7EB00C9010C /* RunLoopController.h */,
+				3B53E61B2827B7EB00C9010C /* RunLoopController.m */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		3B53E61D282D380F00C9010C /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				3B53E61E282D386D00C9010C /* GCDViewController.h */,
+				3B53E61F282D386D00C9010C /* GCDViewController.m */,
+			);
+			path = "多线程";
+			sourceTree = "<group>";
+		};
 		3BF4829127FB103E00387537 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +228,8 @@
 		3BF4829C27FB103E00387537 /* iOSInterView */ = {
 			isa = PBXGroup;
 			children = (
+				3B53E61D282D380F00C9010C /* 多线程 */,
+				3B53E6192827B7CB00C9010C /* RunLoop */,
 				3B53E6122821F57F00C9010C /* 汇编 */,
 				3B53E60B281EBB4900C9010C /* RunTime */,
 				3B53E604281E3B2200C9010C /* Block */,
@@ -354,6 +380,8 @@
 			files = (
 				3B53E5F0281D037200C9010C /* NSBookAC+book.m in Sources */,
 				3B53E5D32801310B00C9010C /* ObjectController.mm in Sources */,
+				3B53E61C2827B7EB00C9010C /* RunLoopController.m in Sources */,
+				3B53E620282D386D00C9010C /* GCDViewController.m in Sources */,
 				3B53E60A281E828100C9010C /* NSBookAD.m in Sources */,
 				3B53E5E328027C9F00C9010C /* CategoryController.m in Sources */,
 				3B53E5D62801970500C9010C /* NSBookAA.m in Sources */,

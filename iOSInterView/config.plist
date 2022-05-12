@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>多线程</key>
+	<string>GCDViewController</string>
 	<key>RunTime</key>
 	<string>RunTimeController</string>
 	<key>汇编</key>
@@ -16,5 +18,7 @@
 	<string>KVOController</string>
 	<key>Block</key>
 	<string>BlockController</string>
+	<key>RunLoop</key>
+	<string>RunLoopController</string>
 </dict>
 </plist>
