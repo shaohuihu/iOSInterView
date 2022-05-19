@@ -7,8 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
-#import "GCDViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,11 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[GCDViewController alloc] init];
-    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

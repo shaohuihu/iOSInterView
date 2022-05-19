@@ -353,12 +353,12 @@ typedef void(^block3)(void);
     
 //    [self block1];
 //    [self block2];
-//    [self block3];
+    [self block3];
 //
 //
 //    [self block4];
     
-    [self block5];
+//    [self block5];
 
     
     
