@@ -4,6 +4,8 @@
 <dict>
 	<key>性能优化</key>
 	<string>PerformanceController</string>
+	<key>防护</key>
+	<string>SafeController</string>
 	<key>内存管理</key>
 	<string>MemoryController</string>
 	<key>多线程</key>
